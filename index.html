@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+
+<html class="light" lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@600;700;800&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;family=Space+Grotesk:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "on-surface-variant": "#4f4632", "surface-container-low": "#f6f3f2", "on-secondary": "#ffffff", "primary": "#795900", "secondary-fixed-dim": "#b5c4ff", "on-tertiary-fixed": "#410003", "on-error-container": "#93000a", "surface-variant": "#e5e2e1", "on-surface": "#1c1b1b", "on-secondary-container": "#15378a", "primary-fixed": "#ffdf9f", "outline": "#827660", "on-tertiary": "#ffffff", "outline-variant": "#d4c5ac", "background": "#fcf9f8", "on-primary-fixed-variant": "#5b4300", "surface-container": "#f0eded", "surface-container-high": "#eae7e7", "surface-dim": "#dcd9d9", "tertiary-fixed-dim": "#ffb3ac", "on-tertiary-fixed-variant": "#930010", "on-secondary-fixed": "#00174c", "on-tertiary-container": "#a30113", "primary-fixed-dim": "#fabd0d", "tertiary-fixed": "#ffdad6", "primary-container": "#f5b800", "inverse-on-surface": "#f3f0ef", "error-container": "#ffdad6", "error": "#ba1a1a", "inverse-primary": "#fabd0d", "on-secondary-fixed-variant": "#224194", "surface-tint": "#795900", "tertiary-container": "#ffada5", "tertiary": "#ba1a20", "on-background": "#1c1b1b", "on-primary-container": "#664b00", "inverse-surface": "#313030", "surface-container-lowest": "#ffffff", "on-primary": "#ffffff", "secondary-container": "#8aa5fe", "on-error": "#ffffff", "secondary": "#3d5aad", "secondary-fixed": "#dbe1ff", "surface-container-highest": "#e5e2e1", "on-primary-fixed": "#261a00", "surface-bright": "#fcf9f8", "surface": "#fcf9f8" }, borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, spacing: { "gutter-lg": "2rem", "margin-lg": "3.5rem", "gutter": "1.25rem", "margin": "1rem", "space-sm": "0.5rem", "space-md": "1rem", "space-lg": "1.5rem", "margin-md": "2rem", "space-xl": "2.5rem", "space-xs": "0.25rem" }, fontFamily: { "label-lg": ["Space Grotesk"], "headline-sm": ["Epilogue"], "headline-lg": ["Epilogue"], "body-lg": ["Plus Jakarta Sans"], "label-stat": ["Space Grotesk"], "label-md": ["Space Grotesk"], "display-hero": ["Epilogue"], "title-md": ["Plus Jakarta Sans"], "display-hero-mobile": ["Epilogue"], "body-md": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "headline-md": ["Epilogue"], "headline-lg-mobile": ["Epilogue"] }, fontSize: { "label-lg": ["14px", { "lineHeight": "18px", "letterSpacing": "0.04em", "fontWeight": "600" }], "headline-sm": ["22px", { "lineHeight": "28px", "fontWeight": "600" }], "headline-lg": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }], "label-stat": ["20px", { "lineHeight": "24px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.06em", "fontWeight": "600" }], "display-hero": ["56px", { "lineHeight": "64px", "letterSpacing": "-0.03em", "fontWeight": "800" }], "title-md": ["18px", { "lineHeight": "24px", "fontWeight": "700" }], "display-hero-mobile": ["38px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "800" }], "body-md": ["15px", { "lineHeight": "22px", "fontWeight": "400" }], "body-sm": ["13px", { "lineHeight": "18px", "fontWeight": "400" }], "headline-md": ["28px", { "lineHeight": "34px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "headline-lg-mobile": ["30px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "700" }] } } } };</script></head><body class="bg-surface font-body-md text-on-surface flex flex-col antialiased selection:bg-primary-fixed"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/85 backdrop-blur-xl shadow-[0_2px_12px_rgba(0,43,127,0.06)]"><div class="h-16 px-margin flex items-center justify-between"><div class="flex items-center gap-space-sm"><img alt="Inka Kola Emblem Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDKJebr2wk3_NsMlbDFopdqhg1J10Dq_NHMX5Hd1gmwAEcYU2GPmENhqIrGPeTa8c-zMli8YjMRYgty-vE35N27nJkKq6zFsUXCDDfqnQI-gtt8wKf8WDtkzcbUqLqa91hoTbtzLJoUddsfz3ZOgSLRoGZWsocgDrvzFfW-7JUuAp6SqjeRVJzemFjJcWWQWQ4uEAUQHWBYKt4RIhOmo1x-dlogpOAjL4DU3nl39bLbkLacnDaZ_PoN"/><div class="flex flex-col"><span class="font-label-lg text-label-lg uppercase tracking-wider text-secondary leading-none">Inka Kola</span><span class="font-body-sm text-[11px] text-on-surface-variant font-medium leading-tight">Historia &amp; Esencia</span></div></div><div class="flex items-center gap-space-sm"><button class="min-h-[44px] px-3 py-1.5 rounded-full bg-primary-fixed/40 hover:bg-primary-fixed flex items-center gap-1.5 transition-colors" type="button"><span class="text-sm leading-none">🇵🇪</span><span class="font-label-md text-label-md uppercase text-on-primary-fixed-variant">Perú</span><span class="material-symbols-outlined text-[14px] text-on-primary-fixed-variant">expand_more</span></button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex flex-col relative w-full pt-16 pb-24 bg-surface min-h-screen"><div class="flex flex-col w-full">
+<!-- SECTION 1: HERO HIGHLIGHT -->
+<section class="relative w-full px-margin pt-space-md pb-space-lg flex flex-col gap-space-md overflow-hidden">
+<!-- Ambient Radiance Background Elements -->
+<div class="absolute -top-10 -right-10 w-48 h-48 bg-primary-container/25 rounded-full blur-3xl pointer-events-none"></div>
+<div class="absolute top-1/2 -left-12 w-44 h-44 bg-secondary-container/15 rounded-full blur-2xl pointer-events-none"></div>
+<!-- Cultural Origin Pill -->
+<div class="flex items-center gap-space-xs self-start bg-primary-fixed/60 backdrop-blur-md px-3 py-1.5 rounded-full">
+<span class="text-sm leading-none">🇵🇪</span>
+<span class="font-label-md text-label-md text-on-primary-fixed uppercase tracking-wider">Rímac, Lima · 1935 · Hierba Luisa</span>
+</div>
+<!-- Slogan & Headline Lockup -->
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-lg text-label-lg uppercase text-secondary font-bold tracking-widest flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-primary" style="font-variation-settings: 'FILL' 1;">stars</span>
+        La Bebida de Sabor Nacional
+      </span>
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface">
+        El Sabor Dorado que Conquistó al Mundo
+      </h1>
+<p class="font-body-md text-body-md text-on-surface-variant">
+        Efervescente, legendaria y única en el planeta. La mística receta andina que transformó una botella en emblema cultural de toda una patria.
+      </p>
+</div>
+<!-- Visual Showcase Hero Card -->
+<div class="relative w-full rounded-xl overflow-hidden bg-surface-container shadow-md flex flex-col">
+<div class="relative w-full h-72 overflow-hidden flex items-center justify-center">
+<img class="w-full h-full object-cover" data-alt="A cold, condensation-covered glass bottle of vivid bright yellow carbonated golden beverage, surrounded by floating crystal ice cubes and rising golden effervescent bubbles against a warm rich imperial navy background with warm amber spotlights and festive golden mist." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBIaKzgtqIFcZMgrnC_clSklU5Pfkd65T9HqKHgFsEjC4NG-yx4UZm7ImfJYS1W_hTGuvpK07aW8TdAAZGTW4uVntsdebvYuxQZygCI5-uHezH85M8Z9GlyewZkLpbHh5LdfSwXWhYSsf5gTFCOzEyY06q37nKu_5GCUKGZDMGhW7OV9cBpZg0mn52LcO6uqFznRe53cqPyTF7PFxYrc_wf3RalD6kTKO6qSgVLkOPJiiLh9HoRu1G-"/>
+<!-- Scrim Gradient Overlay -->
+<div class="absolute inset-0 bg-gradient-to-t from-on-secondary-fixed via-on-secondary-fixed/40 to-transparent"></div>
+<!-- Floating Victory Badge Over Image -->
+<div class="absolute top-space-md left-space-md right-space-md flex items-center gap-space-sm bg-surface-container-lowest/90 backdrop-blur-md p-2.5 rounded-xl shadow-sm">
+<div class="w-8 h-8 rounded-full bg-primary-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-on-primary-container text-[18px]" style="font-variation-settings: 'FILL' 1;">trophy</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-md text-label-md uppercase text-primary font-bold">Hito Global Único</span>
+<span class="font-body-sm text-body-sm text-on-surface truncate">Venció a los gigantes globales en su propio suelo</span>
+</div>
+</div>
+<!-- Bottom Tag in Image -->
+<div class="absolute bottom-space-md left-space-md right-space-md flex justify-between items-end">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md uppercase text-primary-fixed tracking-wide">Fórmula Original</span>
+<span class="font-title-md text-title-md text-on-secondary">Infusión de Hierba Luisa</span>
+</div>
+<div class="flex items-center gap-1 bg-primary px-3 py-1 rounded-full text-on-primary font-label-md text-label-md">
+<span class="material-symbols-outlined text-[14px]">local_fire_department</span>
+<span>Ícono Perú</span>
+</div>
+</div>
+</div>
+<!-- Quick Interactive Fizz Bar -->
+<div class="bg-surface-container-high px-space-md py-space-sm flex items-center justify-between">
+<span class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-primary-container animate-ping"></span>
+          Burbujeo 100% peruano
+        </span>
+<button class="flex items-center gap-1 text-secondary font-label-md text-label-md uppercase font-bold min-h-[36px] px-3 rounded-full hover:bg-secondary-fixed/50 transition-colors" id="fizzTrigger">
+<span class="material-symbols-outlined text-[16px]">bubble_chart</span>
+<span>¡Destapar!</span>
+</button>
+</div>
+</div>
+</section>
+<!-- SECTION 2: DATOS Y CIFRAS IMPACTANTES -->
+<section class="w-full px-margin py-space-md flex flex-col gap-space-md">
+<div class="flex flex-col gap-0.5">
+<span class="font-label-md text-label-md text-secondary uppercase tracking-widest font-bold">Poder de Mercado</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Liderazgo Imbatible</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Cifras que confirman una devoción compartida en costa, sierra y selva.</p>
+</div>
+<!-- Data Bento Trio -->
+<div class="grid grid-cols-1 gap-space-sm">
+<!-- Big Stat Card 1 -->
+<div class="bg-on-secondary-fixed text-on-secondary p-space-md rounded-xl flex items-center justify-between shadow-md relative overflow-hidden">
+<div class="flex flex-col gap-0.5 z-10">
+<div class="flex items-baseline gap-1">
+<span class="font-display-hero-mobile text-display-hero-mobile text-primary-fixed leading-none">85%</span>
+<span class="font-headline-sm text-headline-sm text-primary-fixed-dim">+</span>
+</div>
+<span class="font-title-md text-title-md font-semibold text-on-secondary">Penetración Nacional</span>
+<span class="font-body-sm text-body-sm text-secondary-fixed-dim">En las mesas familiares de todo el Perú</span>
+</div>
+<div class="w-16 h-16 rounded-full bg-secondary/30 flex items-center justify-center shrink-0 z-10">
+<span class="material-symbols-outlined text-primary-fixed text-[32px]">home</span>
+</div>
+<!-- Subtle Andean Fret Pattern Mock -->
+<div class="absolute -right-4 -bottom-4 w-24 h-24 rounded-full bg-primary/10 blur-xl"></div>
+</div>
+<!-- Split Metrics Row -->
+<div class="grid grid-cols-2 gap-space-sm">
+<!-- Metric 2 -->
+<div class="bg-surface-container p-space-md rounded-xl flex flex-col justify-between shadow-sm">
+<div class="w-8 h-8 rounded-lg bg-primary-container/30 flex items-center justify-center text-primary mb-space-sm">
+<span class="material-symbols-outlined text-[20px]">pie_chart</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-stat text-label-stat text-primary font-bold">30%</span>
+<span class="font-label-md text-label-md uppercase text-on-surface font-semibold mt-0.5">Cuota Líder</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant text-[11px] leading-tight mt-1">Superando a refrescos globales</span>
+</div>
+</div>
+<!-- Metric 3 -->
+<div class="bg-surface-container p-space-md rounded-xl flex flex-col justify-between shadow-sm">
+<div class="w-8 h-8 rounded-lg bg-secondary/15 flex items-center justify-center text-secondary mb-space-sm">
+<span class="material-symbols-outlined text-[20px]">water_drop</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-stat text-label-stat text-secondary font-bold">&gt;35 L</span>
+<span class="font-label-md text-label-md uppercase text-on-surface font-semibold mt-0.5">Por Cápita</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant text-[11px] leading-tight mt-1">Consumo anual promedio</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Micro Highlights Slider / Cards -->
+<div class="flex flex-col gap-space-xs">
+<div class="bg-surface-container-low p-space-md rounded-xl flex items-center gap-space-md">
+<span class="text-2xl">🎉</span>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-tertiary font-bold">+40% en Fiestas Patrias</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">El pico máximo de consumo nacional en todo julio.</span>
+</div>
+</div>
+<div class="bg-surface-container-low p-space-md rounded-xl flex items-center gap-space-md">
+<span class="text-2xl">🍗</span>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-secondary font-bold">9 de cada 10 polladas</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Compañera fija de chifas dominicales y celebraciones de barrio.</span>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 3: INKOLVERS EN EL MUNDO -->
+<section class="w-full px-margin py-space-md flex flex-col gap-space-md">
+<div class="flex flex-col gap-0.5">
+<span class="font-label-md text-label-md text-tertiary uppercase tracking-widest font-bold">Diáspora y Nostalgia</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Nostalgia Embotellada</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Más de 3.5 millones de compatriotas en el exterior la buscan como un puente de vuelta a casa.</p>
+</div>
+<!-- Emotional Diaspora Card -->
+<div class="relative w-full rounded-xl overflow-hidden bg-surface-container shadow-md">
+<div class="h-44 w-full relative">
+<img class="w-full h-full object-cover" data-alt="An atmospheric twilight photograph of a cozy Latin market grocery shelf in Madrid, Spain, displaying bright golden Inka Kola glass bottles alongside Andean products, illuminated by soft golden ambient lights and warm street reflections." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBv-C3xEK2m7URaMCrdaPa7h1c50OBG2DOcLwDtsDN2ugHxGyGJkn9ok6cy8LGosKdToc-j2-tLXHGWjVR1d7Qp2_trNIkNI82Cl3107t1Oh9OTP9rdWR2464kIiSdo0aejB4A5vHgngr1ucIm1CiCJn2DOriYlmgivJ4H2alUkJqBuIo0NBTl1ZSneIxHpc3YnwU_OtQ9uEOuBgv9t_Umso6ecAyilGG1EHneool2HHIKwW9fm6rwT"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container via-surface-container/60 to-transparent"></div>
+<div class="absolute top-space-sm right-space-sm bg-tertiary text-on-tertiary font-label-md text-label-md px-2.5 py-1 rounded-full uppercase">
+          Mundial
+        </div>
+</div>
+<div class="p-space-md flex flex-col gap-space-sm -mt-6 relative z-10">
+<!-- Quote Block -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[24px]">format_quote</span>
+<p class="font-body-md text-body-md italic text-on-surface">
+            "Abrir una Inka Kola bien helada en pleno invierno en Madrid o Queens es sentirse a una cuadra de Lima."
+          </p>
+<span class="font-label-md text-label-md text-on-surface-variant self-end">— Comunidad en el exterior</span>
+</div>
+<!-- Global Points Pills -->
+<div class="flex flex-col gap-1.5 mt-1">
+<span class="font-label-md text-label-md uppercase text-on-surface font-bold">Países con presencia clave:</span>
+<div class="flex flex-wrap gap-1.5">
+<span class="bg-primary-fixed/50 text-on-primary-fixed-variant px-2.5 py-1 rounded-full font-label-md text-label-md flex items-center gap-1">🇺🇸 New Jersey &amp; FL</span>
+<span class="bg-primary-fixed/50 text-on-primary-fixed-variant px-2.5 py-1 rounded-full font-label-md text-label-md flex items-center gap-1">🇪🇸 España</span>
+<span class="bg-primary-fixed/50 text-on-primary-fixed-variant px-2.5 py-1 rounded-full font-label-md text-label-md flex items-center gap-1">🇮🇹 Italia</span>
+<span class="bg-primary-fixed/50 text-on-primary-fixed-variant px-2.5 py-1 rounded-full font-label-md text-label-md flex items-center gap-1">🇯🇵 Japón</span>
+<span class="bg-primary-fixed/50 text-on-primary-fixed-variant px-2.5 py-1 rounded-full font-label-md text-label-md flex items-center gap-1">🇨🇱 Chile</span>
+<span class="bg-primary-fixed/50 text-on-primary-fixed-variant px-2.5 py-1 rounded-full font-label-md text-label-md flex items-center gap-1">🇦🇺 Australia</span>
+</div>
+</div>
+<!-- Unusual Trivia Pill -->
+<div class="bg-secondary-fixed/40 p-space-sm rounded-xl flex items-start gap-space-sm mt-1">
+<span class="material-symbols-outlined text-secondary text-[20px] shrink-0 mt-0.5">flight_takeoff</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-secondary-fixed font-bold uppercase">Fenómeno en Japón</span>
+<span class="font-body-sm text-body-sm text-on-secondary-fixed-variant text-[12px] leading-snug">
+              En las prefecturas de Gunma y Kanagawa es producto de culto en minimarkets e izakayas fusión.
+            </span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 4: ¿A QUÉ SABE? EL ENIGMA DEL SABOR DORADO -->
+<section class="w-full px-margin py-space-md flex flex-col gap-space-md">
+<div class="flex flex-col gap-0.5">
+<span class="font-label-md text-label-md text-primary uppercase tracking-widest font-bold">Perfil Sensorial</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">El Enigma del Sabor Dorado</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">¿Tutti-frutti, chicle o hierbas ancestrales? Conoce la composición secreta.</p>
+</div>
+<!-- Flavor Wheel Interactive Cards -->
+<div class="bg-surface-container rounded-xl p-space-md flex flex-col gap-space-md shadow-sm">
+<!-- Main Core Card -->
+<div class="flex items-center gap-space-md bg-surface-container-lowest p-space-md rounded-xl shadow-sm">
+<div class="w-14 h-14 rounded-full bg-primary-container flex items-center justify-center shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-on-primary-container text-[28px]" style="font-variation-settings: 'FILL' 1;">eco</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md uppercase text-primary font-bold">Ingrediente Base Secreto</span>
+<span class="font-title-md text-title-md text-on-surface">Hierba Luisa (Lemon Verbena)</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant text-[12px]">Aroma cítrico noble con dulzor reconfortante y herbal.</span>
+</div>
+</div>
+<!-- Notes Breakdown Bars -->
+<div class="flex flex-col gap-space-sm">
+<span class="font-label-md text-label-md uppercase text-on-surface font-semibold tracking-wide">Notas del Paladar</span>
+<!-- Flavor Note 1 -->
+<div class="flex flex-col gap-1">
+<div class="flex justify-between font-body-sm text-body-sm">
+<span class="text-on-surface font-medium">Toque Cítrico Herbal</span>
+<span class="text-primary font-bold">45%</span>
+</div>
+<div class="w-full h-2.5 rounded-full bg-surface-container-highest overflow-hidden">
+<div class="h-full bg-primary rounded-full" style="width: 45%;"></div>
+</div>
+</div>
+<!-- Flavor Note 2 -->
+<div class="flex flex-col gap-1">
+<div class="flex justify-between font-body-sm text-body-sm">
+<span class="text-on-surface font-medium">Dulzor Efervescente &amp; Vainilla</span>
+<span class="text-primary-container font-bold">35%</span>
+</div>
+<div class="w-full h-2.5 rounded-full bg-surface-container-highest overflow-hidden">
+<div class="h-full bg-primary-container rounded-full" style="width: 35%;"></div>
+</div>
+</div>
+<!-- Flavor Note 3 -->
+<div class="flex flex-col gap-1">
+<div class="flex justify-between font-body-sm text-body-sm">
+<span class="text-on-surface font-medium">Nostalgia &amp; Infancia</span>
+<span class="text-secondary font-bold">20%</span>
+</div>
+<div class="w-full h-2.5 rounded-full bg-surface-container-highest overflow-hidden">
+<div class="h-full bg-secondary rounded-full" style="width: 20%;"></div>
+</div>
+</div>
+</div>
+<!-- Perception Box -->
+<div class="grid grid-cols-2 gap-space-sm pt-space-xs">
+<div class="bg-surface-container-low p-2.5 rounded-lg flex flex-col">
+<span class="font-label-md text-label-md uppercase text-on-surface-variant font-bold">Al Extranjero:</span>
+<span class="font-body-sm text-body-sm text-on-surface font-medium">"Bubblegum soda / algodón de azúcar"</span>
+</div>
+<div class="bg-primary-fixed/40 p-2.5 rounded-lg flex flex-col">
+<span class="font-label-md text-label-md uppercase text-primary font-bold">Al Peruano:</span>
+<span class="font-body-sm text-body-sm text-on-primary-fixed-variant font-bold">"El sabor de nuestra casa"</span>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 5: MARIDAJES ICÓNICOS (LA DUPLA SAGRADA) -->
+<section class="w-full px-margin py-space-md flex flex-col gap-space-md">
+<div class="flex flex-col gap-0.5">
+<span class="font-label-md text-label-md text-secondary uppercase tracking-widest font-bold">Gastronomía Criolla</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">La Dupla Sagrada</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Ninguna comida peruana está completa sin una botella dorada en la mesa.</p>
+</div>
+<!-- Vertical Carousel of Pairings -->
+<div class="flex flex-col gap-space-sm">
+<!-- Pair 1: Chifa -->
+<div class="bg-surface-container rounded-xl overflow-hidden shadow-sm flex flex-col">
+<div class="h-36 w-full relative">
+<img class="w-full h-full object-cover" data-alt="A piping hot wok-tossed Peruvian Arroz Chaufa rice dish with crispy golden wontons, placed beside a tall frosty glass of sparkling golden Inka Kola with lemon slice, steam gently rising in a warm bistro setting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCWjBc7MUu7_Nuwjb7JWdc8MxDCjVeEcgH068d5Uz3CxFJWw0tNrRnUjFSGqVZw9eEiwZ-1suHaCNuZtVBmVu33kjVvHVXUPU2LoMZU3p5q6Q9qwBeb2Kj8JA_HrlXcOOu_ocZi2yM8ic1b1-0--TnuowDRGM1nJn9EUevHZA_M92zf_z1tZBu1L4-hf4gf6CKB2oEGaEOxBtO5ZfL3mCIiR_imEjwEYe4YXOiwIxsbaeCECjdjetx4"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container via-transparent to-transparent"></div>
+<span class="absolute top-2 left-2 bg-primary text-on-primary font-label-md text-label-md uppercase px-2.5 py-0.5 rounded-full font-bold">
+            Indiscutible #1
+          </span>
+</div>
+<div class="p-space-md flex flex-col gap-1 -mt-2">
+<span class="font-headline-sm text-headline-sm text-on-surface">Chifa + Inka Kola</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">
+            Arroz chaufa humeante, wantán frito y tallarín saltado. El balance dulce de la hierba luisa corta de forma sublime la soya y el aceite de ajonjolí.
+          </span>
+</div>
+</div>
+<!-- Pair 2: Pollo a la Brasa -->
+<div class="bg-surface-container rounded-xl overflow-hidden shadow-sm flex flex-col">
+<div class="h-36 w-full relative">
+<img class="w-full h-full object-cover" data-alt="Golden crisp Peruvian Pollo a la Brasa roast chicken with skin glistening with spices, thick french fries and ají verde sauce, paired with an ice-cold bottle of Inka Kola, warm ambient party lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBLW3fJVmVYxKl4lMa1R2DC23NxOURATorsyr1VMMQ4OscF8964Wb7D1JGOMP-Z6gGQ7MyjXIl547DjEdDT8hVKyHvuFHrX7Hw8C2u_KGUmcDAso5LL5rjgmmluWS8IxbSLmLPsJyU2raquSm72Mp6ZxbzYvH5zMbmfyRQcCVf2Tb1k2zNGqiaihS_iXlpjwgcucUt0IodsL2rYM47msR05tVQimLJ5P3VuXKi8jZQ8WZw6i2Ytjm5N"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container via-transparent to-transparent"></div>
+<span class="absolute top-2 left-2 bg-secondary text-on-secondary font-label-md text-label-md uppercase px-2.5 py-0.5 rounded-full font-bold">
+            Fin de Semana
+          </span>
+</div>
+<div class="p-space-md flex flex-col gap-1 -mt-2">
+<span class="font-headline-sm text-headline-sm text-on-surface">Pollo a la Brasa + Papas Fritas</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">
+            Piel crocante, ají pollero y la acidez gasificada justa para reiniciar las papilas gustativas entre bocado y bocado.
+          </span>
+</div>
+</div>
+<!-- Pair 3: Ceviche o Lomo Saltado -->
+<div class="bg-surface-container rounded-xl overflow-hidden shadow-sm flex flex-col">
+<div class="h-36 w-full relative">
+<img class="w-full h-full object-cover" data-alt="A vibrant plate of fresh Peruvian Ceviche Mixto with lime marinade, sweet potato, and cancha corn next to an icy glass with golden soda and fresh bubbles, bathed in clean daylight." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB4U3OoDhO9m2JwgIZIHrVLDwqdyURZVwNWIe1_q0P-zOFYK1JwrHCt2o7ZfUA9b5w3jGMfn1uBcG84sZ3sC-Rkk_YT4miDwKqFnEdDeEAowVrIEUuGu46BEHlKCoXerP10MbscXDeMZ6Z93YwCL_waKpUwrsAlsxUPrGNUPdz4svK16GpyXPi-bAc4T5a74OZ9j_mJwoQnUBmVAET37cYkuAKKHAfm7njDJ-7ll8F709FEav2sNpsA"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container via-transparent to-transparent"></div>
+<span class="absolute top-2 left-2 bg-on-secondary-container text-on-secondary font-label-md text-label-md uppercase px-2.5 py-0.5 rounded-full font-bold">
+            Clásico Costero
+          </span>
+</div>
+<div class="p-space-md flex flex-col gap-1 -mt-2">
+<span class="font-headline-sm text-headline-sm text-on-surface">Ceviche Mixto o Lomo Saltado</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">
+            El contraste dulce aplaca el picante del rocoto en el ceviche y armoniza con los jugos flameados del lomo al wok.
+          </span>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 6: CURIOSIDADES & HISTORIA CREATIVA -->
+<section class="w-full px-margin py-space-md flex flex-col gap-space-md">
+<div class="flex flex-col gap-0.5">
+<span class="font-label-md text-label-md text-primary uppercase tracking-widest font-bold">Legado Histórico</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Curiosidades de Colección</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Anécdotas que forjaron el mito de la bebida dorada.</p>
+</div>
+<div class="grid grid-cols-1 gap-space-sm">
+<!-- Trivia Item 1 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex gap-space-sm items-start">
+<div class="w-10 h-10 rounded-full bg-primary/10 text-primary flex items-center justify-center shrink-0">
+<span class="font-label-lg text-label-lg font-bold">1999</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface font-bold">La alianza con el gigante</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+            The Coca-Cola Company adquirió el 50% de la marca por 300 millones de dólares tras admitir que no podía ganarle en el mercado peruano.
+          </p>
+</div>
+</div>
+<!-- Trivia Item 2 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex gap-space-sm items-start">
+<div class="w-10 h-10 rounded-full bg-secondary/10 text-secondary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[20px]">handshake</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface font-bold">La Botella 'Gordita'</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+            La icónica botella retornable de vidrio con grabados incaicos en relieve es considerada patrimonio de diseño pop sudamericano.
+          </p>
+</div>
+</div>
+<!-- Trivia Item 3 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex gap-space-sm items-start">
+<div class="w-10 h-10 rounded-full bg-tertiary/10 text-tertiary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[20px]">bolt</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface font-bold">Inka Kola Zero</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+            Logró el mismo color radiante y fragancia a hierba luisa sin calorías, manteniéndose fiel a su identidad sensorial.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 7: INTERACTIVE POLL & COMMUNITY CTA -->
+<section class="w-full px-margin py-space-lg flex flex-col gap-space-md">
+<div class="bg-on-secondary-fixed text-on-secondary rounded-xl p-space-md flex flex-col gap-space-md shadow-md">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary-fixed text-[24px]">how_to_vote</span>
+<h3 class="font-headline-sm text-headline-sm text-primary-fixed">¿Cómo la tomas tú?</h3>
+</div>
+<p class="font-body-sm text-body-sm text-secondary-fixed-dim">
+        Participa en la encuesta viva de la comunidad y mira cómo prefiere disfrutarla la patria:
+      </p>
+<!-- Poll Options -->
+<div class="flex flex-col gap-space-sm" id="pollContainer">
+<!-- Option 1 -->
+<button class="poll-btn text-left p-space-sm rounded-lg bg-surface-container-lowest/10 hover:bg-surface-container-lowest/20 transition-all flex flex-col gap-1 w-full min-h-[52px]" data-poll="0" type="button">
+<div class="flex justify-between items-center w-full">
+<span class="font-body-md text-body-md text-on-secondary font-medium">🧊 Al polo (bien helada)</span>
+<span class="font-label-md text-label-md text-primary-fixed font-bold poll-pct">62%</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container-lowest/20 overflow-hidden">
+<div class="h-full bg-primary-fixed rounded-full transition-all duration-500" style="width: 62%;"></div>
+</div>
+</button>
+<!-- Option 2 -->
+<button class="poll-btn text-left p-space-sm rounded-lg bg-surface-container-lowest/10 hover:bg-surface-container-lowest/20 transition-all flex flex-col gap-1 w-full min-h-[52px]" data-poll="1" type="button">
+<div class="flex justify-between items-center w-full">
+<span class="font-body-md text-body-md text-on-secondary font-medium">🥢 Con Chifa un domingo</span>
+<span class="font-label-md text-label-md text-primary-fixed font-bold poll-pct">26%</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container-lowest/20 overflow-hidden">
+<div class="h-full bg-primary-fixed rounded-full transition-all duration-500" style="width: 26%;"></div>
+</div>
+</button>
+<!-- Option 3 -->
+<button class="poll-btn text-left p-space-sm rounded-lg bg-surface-container-lowest/10 hover:bg-surface-container-lowest/20 transition-all flex flex-col gap-1 w-full min-h-[52px]" data-poll="2" type="button">
+<div class="flex justify-between items-center w-full">
+<span class="font-body-md text-body-md text-on-secondary font-medium">🍾 En gordita de vidrio</span>
+<span class="font-label-md text-label-md text-primary-fixed font-bold poll-pct">12%</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container-lowest/20 overflow-hidden">
+<div class="h-full bg-primary-fixed rounded-full transition-all duration-500" style="width: 12%;"></div>
+</div>
+</button>
+</div>
+<div class="hidden text-center py-1 font-label-md text-label-md text-primary-fixed uppercase tracking-wider animate-pulse" id="voteFeedback">
+        ¡Voto registrado con éxito!
+      </div>
+<!-- Share Action Button -->
+<button class="w-full min-h-[48px] bg-primary-container hover:bg-primary-fixed text-on-primary-container rounded-full font-label-lg text-label-lg font-bold flex items-center justify-center gap-2 shadow-sm transition-all active:scale-95" id="shareBtn" type="button">
+<span class="material-symbols-outlined text-[20px]">share</span>
+<span>Comparte tu Orgullo Dorado</span>
+</button>
+</div>
+</section>
+<!-- Interactive JavaScript for Polish and Feedback -->
+<script>
+    // Fizz Sound / Animation interaction
+    const fizzBtn = document.getElementById('fizzTrigger');
+    if (fizzBtn) {
+      fizzBtn.addEventListener('click', () => {
+        fizzBtn.classList.add('scale-95');
+        const originalText = fizzBtn.innerHTML;
+        fizzBtn.innerHTML = '<span class="material-symbols-outlined text-[16px]">celebration</span><span>¡Tsss! ¡Salud!</span>';
+        setTimeout(() => {
+          fizzBtn.classList.remove('scale-95');
+          fizzBtn.innerHTML = originalText;
+        }, 1800);
+      });
+    }
+
+    // Community Poll Interaction
+    const pollButtons = document.querySelectorAll('.poll-btn');
+    const feedback = document.getElementById('voteFeedback');
+    pollButtons.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        pollButtons.forEach(b => b.classList.remove('ring-2', 'ring-primary-fixed'));
+        btn.classList.add('bg-surface-container-lowest/25');
+        if (feedback) {
+          feedback.classList.remove('hidden');
+          setTimeout(() => feedback.classList.add('hidden'), 2500);
+        }
+      });
+    });
+
+    // Share API or Fallback Toast
+    const shareBtn = document.getElementById('shareBtn');
+    if (shareBtn) {
+      shareBtn.addEventListener('click', () => {
+        if (navigator.share) {
+          navigator.share({
+            title: 'Inka Kola: El Sabor Nacional',
+            text: '¡Descubre por qué Inka Kola es el orgullo dorado del Perú y el mundo!',
+            url: window.location.href
+          }).catch(() => {});
+        } else {
+          const original = shareBtn.innerHTML;
+          shareBtn.innerHTML = '<span class="material-symbols-outlined text-[20px]">check</span><span>¡Enlace copiado!</span>';
+          setTimeout(() => {
+            shareBtn.innerHTML = original;
+          }, 2000);
+        }
+      });
+    }
+  </script>
+</div></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/90 backdrop-blur-xl shadow-[0_-4px_20px_rgba(0,27,77,0.08)]" data-active-classes="text-secondary bg-primary-fixed/30 font-bold"><div class="flex items-center justify-around h-20 px-2"><a aria-current="page" class="flex flex-col items-center justify-center min-w-[70px] min-h-[48px] px-2 py-1 rounded-xl transition-colors text-secondary bg-primary-fixed/30 font-bold" data-path="historia-&amp;-esencia" href="#"><span class="material-symbols-outlined text-[22px]">local_cafe</span><span class="font-label-md text-[10px] tracking-tight text-center mt-0.5 leading-tight">Historia</span></a><a class="flex flex-col items-center justify-center min-w-[70px] min-h-[48px] px-2 py-1 rounded-xl text-on-surface-variant transition-colors" data-path="en-el-mundo" href="#"><span class="material-symbols-outlined text-[22px]">public</span><span class="font-label-md text-[10px] tracking-tight text-center mt-0.5 leading-tight">En el Mundo</span></a><a class="flex flex-col items-center justify-center min-w-[70px] min-h-[48px] px-2 py-1 rounded-xl text-on-surface-variant transition-colors" data-path="datos-&amp;-cifras" href="#"><span class="material-symbols-outlined text-[22px]">bar_chart</span><span class="font-label-md text-[10px] tracking-tight text-center mt-0.5 leading-tight">Cifras</span></a><a class="flex flex-col items-center justify-center min-w-[70px] min-h-[48px] px-2 py-1 rounded-xl text-on-surface-variant transition-colors" data-path="maridajes" href="#"><span class="material-symbols-outlined text-[22px]">restaurant</span><span class="font-label-md text-[10px] tracking-tight text-center mt-0.5 leading-tight">Maridajes</span></a></div></nav></body></html>
